@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Income Tax Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Income Tax Calculator</h1>
+        <div>
+           <h5><b>BASIC DETAILS</b></h5>
+        </div>
+        <div>
+            <label for="name">Name:</label>
+            <input type="name" id="name" placeholder="enter your name">
+        </div>
+        <div>
+            <label for="pan">Pan num:</label>
+            <input type="number" id="pan" placeholder="enter your pan number">
+        </div>
+        <div>
+            <h5><b>INCOMES</b></h5>
+         </div>
+        <div>
+            <label for="salary">Income from Salary:</label>
+            <input type="number" id="salary" placeholder="enter your income from salary">
+        </div>
+        <div>
+            <label for="rent">Income from Rent:</label>
+            <input type="number" id="rent" placeholder="enter your income from rent">
+        </div>
+        <div>
+            <label for="otherIncome">Other Income:</label>
+            <input type="number" id="otherIncome" placeholder="enter your income from other sources">
+        </div>
+        <div>
+            <h5><b>DEDUCTIONS</b></h5>
+         </div>
+        <div>
+            <label for="lifeInsurance">Life Insurance Deduction:</label>
+            <input type="number" id="lifeInsurance" placeholder="enter your life insuraance deduction">
+        </div>
+        <div>
+            <label for="medicalInsurance">Medical Insurance Deduction:</label>
+            <input type="number" id="medicalInsurance" placeholder="enter your medical insurance deduction">
+        </div>
+        <div>
+            <label for="loan">Loan Deduction:</label>
+            <input type="number" id="loan" placeholder="enter your loan deduction">
+        </div>
+        <button onclick="calculateTax()">Calculate Tax</button>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
