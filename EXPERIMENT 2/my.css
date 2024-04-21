@@ -1,0 +1,113 @@
+#nv{
+    position:sticky;
+    top:0;
+    right:0;
+    z-index:100;
+    padding: .5rem 5rem;
+    box-shadow:5px 5px 20px rgba(0,0,0,.5);
+    background:black;
+}
+
+.navbar .navbar-brand{
+    font-style: italic;
+    font-size:25px;
+    font-weight:800;
+    font-family: sans-serif;
+    color:white !important;
+}
+
+#navbarSupportedContent a{
+    color:white;
+    border-bottom: 2px solid transparent;
+}
+
+#navbarSupportedContent a:hover{
+    border-bottom:2px solid white;
+    
+    
+
+}
+
+#navbarSupportedContent button{
+    background:black;
+    border-color: white;;
+    width: 5rem;
+    border-radius:15px;
+}
+
+
+section{
+    width:100%;
+    min-height:120vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#home{
+    background:linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1)),url(apple2.jpg);
+    background-size:cover;
+   
+}
+
+#home p{
+    font-size:80px;
+    font-style:bold;
+    font-family:sans-serif;
+    color:white;
+}
+#home h5{
+    font-style:bold;
+    color:white;
+}
+#about{
+      color:white;
+}
+#help{
+    background-image: url(h.jpg);
+}
+
+
+#help a{
+    color:white;
+}
+  h1 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  #about{
+    background-image: url(bg.jpg);
+}
+
+#Sales
+{
+    color: aliceblue;
+    font-size: x-large;
+    background-color:black;
+    background-size: cover !important;
+    padding: 110px 50px 50px 110px;
+       
+}
+#Sales a{
+    color:white;
+}
+.card1{
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    background-color: rgb(204, 230, 230);
+  }
+  .carousel-control-next{
+    right: -120px !important;
+  }
+  .carousel-control-prev{
+    left: -120px !important;
+  }
+  .card:hover
+   {
+    transform: translateY(-5px);
+  }
+  #logout{
+    background-color:black;
+    color:aliceblue;
+  }
