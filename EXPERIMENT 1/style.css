@@ -1,0 +1,27 @@
+p{
+    border: 3px outset black;
+    text-align:center;
+    background-color:lightgrey;
+    color: black;
+    font-style:bold;
+    }
+    .div1
+    {	 border: 5px outset black;
+         background-color:antiquewhite;
+         text-align:center;
+         color : blue;
+             padding-right:100px;
+         padding-left:100px;
+    }
+    #div2
+    {
+        color: blue;
+        font-style:italic;
+    }
+    .class
+    {
+    border: 2px dotted red;
+    background-color:white;
+    font-style:bold;
+    }
+    
